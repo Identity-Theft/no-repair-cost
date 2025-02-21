@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "identitytheft.noxpanvils.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AnvilMenuMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "AnvilScreenMixin"
+  ]
+}
